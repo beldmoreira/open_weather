@@ -6,8 +6,7 @@
 }
 
 body{
-    font-family: 'Berkshire Swash', sans-serif;
-    background-color:#FAFAFA;
+        background-color:#FAFAFA;
 }
 .page-header{
     height: 120px;
@@ -23,6 +22,7 @@ body{
 }
 
 .name{
+    font-family:'Berkshire Swash';
     font-size: 37px;
     font-style: normal;
     font-weight: 700;
@@ -36,5 +36,48 @@ body{
 }
 .main-content{
     width: 100%;
-    font-family: 'Open Sans';
+    padding-top: 130px;
+    padding-left: 20px;
+}
+
+.slogan{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style:bold;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#004898;
+    display:flex;
+    justify-content:center;
+}
+.main-reasons{
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#004898;
+    display:flex;
+    justify-content:space-between;
+}
+.button-check {
+    height: 40px;
+    width: 151px;
+    margin-top: 10px;
+    border-radius: 50px;
+    display:flex;
+    justify-content:center;
+    border: 1px solid #004898;
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+.button-function{
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700; 
 }
