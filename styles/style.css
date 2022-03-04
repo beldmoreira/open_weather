@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+body{
+    font-family: 'Berkshire Swash', sans-serif;
+    background-color:#FAFAFA;
+}
+.page-header{
+    height: 120px;
+    width: 100%;
+    background-color:#004898;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position:fixed;
+    top: 0;
+    z-index: 5;
+    background-image: url("/assets/RAJA.jpg");
+    background-position: -16% 55%;
+    background-size: 100% 176%;
+}
+
+.name{
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+    display:flex;
+    justify-content:center;
+    padding-top: 65px;
+}
+.main-content{
+    width: 100%;
+    font-family: 'Open Sans';
+}
